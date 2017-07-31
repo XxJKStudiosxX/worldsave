@@ -1,0 +1,159 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 3,
+                    "quality": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 1,
+                    "quality": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "mending"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.25,
+                                "max": 0.75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 3,
+                    "quality": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.25,
+                                "max": 0.75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:name_tag",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:saddle",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "quality": 3,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:luck\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:skull",
+                    "weight": 1,
+                    "quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 3
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:\"1cefa20f-693a-4a6f-a3fb-7efe2affe62c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNiMTk1NWQzYjZlYjQyZjUwZTUzNmMxYTMyODVhYjczZWQ3ZTJiZTA1MWIwOWIyMWUxNzgxMWYxYTZkIn19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:skull",
+                    "weight": 1,
+                    "quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 3
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:\"a61bb86e-5d95-4296-b2d8-f1badfabb554\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE3ODZlNGUzNWI1OWQ5MWViNjQ1NGVmMjZiN2IwNjgzNzYxZDZiMTFmMWQ2M2M3NzQwYWYxN2FhM2YifX19\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:skull",
+                    "weight": 1,
+                    "quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 3
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:\"ef56c7a3-a5e7-4a7f-9786-a4b6273a591d\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJlNTQ4NDA4YWI3NWQ3ZGY4ZTZkNWQyNDQ2ZDkwYjZlYzYyYWE0ZjdmZWI3OTMwZDFlZTcxZWVmZGRmNjE4OSJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_wait",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
